@@ -56,15 +56,23 @@
 		EFA15E3C2953336B00566F02 /* Scrollable View */ = {
 			isa = PBXGroup;
 			children = (
-				EFA15E3D2953336B00566F02 /* AppDelegate.swift */,
-				EFA15E3F2953336B00566F02 /* SceneDelegate.swift */,
+				EFA15E512953338200566F02 /* Secondary Files */,
 				EFA15E412953336B00566F02 /* ViewController.swift */,
 				EFA15E432953336B00566F02 /* Main.storyboard */,
-				EFA15E462953336D00566F02 /* Assets.xcassets */,
-				EFA15E482953336D00566F02 /* LaunchScreen.storyboard */,
 				EFA15E4B2953336D00566F02 /* Info.plist */,
 			);
 			path = "Scrollable View";
+			sourceTree = "<group>";
+		};
+		EFA15E512953338200566F02 /* Secondary Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFA15E3D2953336B00566F02 /* AppDelegate.swift */,
+				EFA15E3F2953336B00566F02 /* SceneDelegate.swift */,
+				EFA15E462953336D00566F02 /* Assets.xcassets */,
+				EFA15E482953336D00566F02 /* LaunchScreen.storyboard */,
+			);
+			path = "Secondary Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
