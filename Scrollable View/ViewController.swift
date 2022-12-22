@@ -21,7 +21,7 @@ class ViewController: UIViewController {
 	override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
 		super.viewWillTransition(to: size, with: coordinator)
 
-		if (size.width > self.view.frame.size.width){
+		if (size.width > self.view.frame.size.width) {
 			scrollViewBottomConstraint.constant = 100
 		}
 		else {
