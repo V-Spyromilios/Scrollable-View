@@ -15,7 +15,7 @@ class ViewController: UIViewController {
 		self.textView.clipsToBounds = true
 		self.textView.sizeToFit()
 	}
-	
+
 	var isOversised: Bool = false {
 		didSet {
 			textView.isScrollEnabled = isOversised
@@ -29,14 +29,10 @@ extension ViewController: UITextViewDelegate {
 	func textViewDidChange(_ textView: UITextView) {
 		
 		let maxHeight 	= view.frame.size.height - 180
-		isOversised =  textView.contentSize.height >= maxHeight
+		isOversised 	= textView.contentSize.height >= maxHeight
 	}
 	
 }
-
-
-
-
 
 
 //
@@ -55,8 +51,6 @@ extension ViewController: UITextViewDelegate {
 //		//			}
 //		//		}
 //	}
-
-
 
 
 //class ViewController: UIViewController {
@@ -86,6 +80,3 @@ extension ViewController: UITextViewDelegate {
 //			//		else {
 //			//			scrollViewBottomConstraint.constant = 50
 //			//		}
-//
-//	}
-

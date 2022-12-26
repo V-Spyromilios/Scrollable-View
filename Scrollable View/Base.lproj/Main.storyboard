@@ -17,24 +17,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="200" verticalHuggingPriority="200" horizontalCompressionResistancePriority="800" verticalCompressionResistancePriority="800" scrollEnabled="NO" pagingEnabled="YES" usesAttributedText="YES" layoutManager="textKit1" translatesAutoresizingMaskIntoConstraints="NO" id="Tmb-oW-kI1">
-                                <rect key="frame" x="77" y="89" width="239" height="34.333333333333343"/>
+                                <rect key="frame" x="77" y="89" width="239" height="30"/>
                                 <color key="backgroundColor" systemColor="systemMintColor"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="Testefwef">
-                                        <attributes>
-                                            <color key="NSColor" systemColor="labelColor"/>
-                                            <font key="NSFont" metaFont="system" size="15"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" headerLevel="1"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="TestTestTestTest">
-                                        <attributes>
-                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="15" name="HelveticaNeue"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" headerLevel="1"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
+                                <attributedString key="attributedText"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -57,9 +42,6 @@
         </scene>
     </scenes>
     <resources>
-        <systemColor name="labelColor">
-            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
