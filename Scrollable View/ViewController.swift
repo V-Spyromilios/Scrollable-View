@@ -12,8 +12,11 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		textView.delegate = self
+		// a delegate is the reaction of an event on an object and saying ".delegate=self" means those protocols have been adopted in self
 		self.textView.clipsToBounds = true
+		// subviews are limited to the Bounds of the view
 		self.textView.sizeToFit()
+		// view to be as big as the subview
 	}
 
 	var isOversised: Bool = false {
@@ -29,6 +32,7 @@ extension ViewController: UITextViewDelegate {
 	func textViewDidChange(_ textView: UITextView) {
 		
 		let maxHeight 	= view.frame.size.height - 180
+			// size of the view in the parent's system
 		isOversised 	= textView.contentSize.height >= maxHeight
 	}
 	
