@@ -31,11 +31,11 @@ class ViewController: UIViewController {
 extension ViewController: UITextViewDelegate {
 	func textViewDidChange(_ textView: UITextView) {
 		
-		let maxHeight 	= view.frame.size.height - 180
+		let maxHeight 	= view.frame.size.height - 180  //dont use frame!!
+		
 			// size of the view in the parent's system
 		isOversised 	= textView.contentSize.height >= maxHeight
 	}
-	
 }
 
 
